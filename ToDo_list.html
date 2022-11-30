@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #box{
+        width: 600px;
+        height: 600px;
+        border: 1px solid black;
+        /* margin-left: 40%; */
+        background-color: aquamarine;
+        box-shadow: 0px,0px,5px,5px black;
+        
+    } 
+    #name1{
+        width: 50vh;
+        height: 5vh;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+    #submit1{
+        width: 70px;
+        height: 40px;
+    }
+  
+    #edit,#delete{
+        width: 20vh;
+        height: 5vh;
+        border: 1px solid black;
+        
+        margin-top:10px;
+    }
+</style>
+
+<body>
+  <center>
+    <div id="box">
+
+    <table>
+    <tr>
+        <input  type="text" placeholder="enter text here" id="name1">
+    </tr>
+    <button id="submit1">submit</button>
+    </table>
+    <div id="divarea">
+        <table>
+            <tbody id="tableBody"> </tbody>
+        </table>
+    </div>
+
+    </div>
+
+</center>  
+</body>
+<script src="ToDo_list.js"> </script>
+</html>
